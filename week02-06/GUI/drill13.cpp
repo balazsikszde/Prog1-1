@@ -1,5 +1,5 @@
 /*
-    g++ drill13.cpp Graph.cpp Window.cpp GUI.cpp Simple_window.cpp -o main `fltk-config --ldflags --use-images`
+    g++ drill13.cpp Graph.cpp Window.cpp GUI.cpp Simple_window.cpp -o drill13 `fltk-config --ldflags --use-images`
 */
 #include "Simple_window.h"
 #include "Graph.h"
@@ -50,7 +50,7 @@ int main()
     	win.attach(vr[i]);
     }
 
-    /*Image moving_pic (Point(0,0), "gradient_bilinear.jpg");
+    Image moving_pic (Point(0,0), "gradient_bilinear.jpg");
 
     win.attach(moving_pic);
     for (int i = 0; i < 8; ++i)
@@ -61,6 +61,6 @@ int main()
     		if(j<7) moving_pic.move(100,0);
     		else moving_pic.move(-700,100);
     	}
-    }*/
+    }
     win.wait_for_button();
 }
