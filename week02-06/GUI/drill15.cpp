@@ -8,7 +8,7 @@
 double one(double x) { return 1; }
 double slope(double x) { return x/2; }
 double square(double x) { return x*x; }
-double sl_cos(double x) { return cos(x)+slope(x) }
+double sl_cos(double x) { return cos(x)+slope(x); }
 
 int main()
 {

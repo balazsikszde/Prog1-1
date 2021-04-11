@@ -78,4 +78,3 @@ int Menu::attach(Button* p)
 {
 	return attach(*p);
 }
-
