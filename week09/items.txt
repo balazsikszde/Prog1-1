@@ -1,0 +1,10 @@
+Scissors 21 9.99
+Pen 2 1.99
+Paper 6 0.49
+Pencil 1 0.99
+Book 76 14.99
+Sharpener 68 2.99
+Towel 987 2.49
+Tissues 32 1.19
+Chocolate 987 4.49
+Bubblegum 456 0.79

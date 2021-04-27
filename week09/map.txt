@@ -1,0 +1,10 @@
+lecture 21
+football 8
+vacation 99
+table 78
+origami 32
+airplane 19
+telephone 88
+lighter 1
+keychain 11
+backpack 45
